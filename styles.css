@@ -18,7 +18,7 @@
     display: flex;
     justify-content: start;
     padding-left: 5%;
-    padding-top: 3%;
+    padding-top: 0;
     width: 100%;
     background-image: url("./assets/images/header-background2.png");
     background-size: 80%;
@@ -30,10 +30,27 @@
   .menu-image {
     height: 50px;
     width: 50px;
+    padding-top: 3%;
+  }
+
+  .menu-appear {
+    display: none;
+    flex-direction: row-reverse;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(211, 211, 211, 0.2);
+  }
+
+  .close-menu {
+    font-size: 30px;
+    color: #ec5242;
+    margin-top: 0;
+    margin-right: 3%;
   }
 
   .navigation {
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -41,6 +58,21 @@
     text-decoration: none;
     list-style: none;
     width: 90%;
+    padding-top: 4%;
+    background-color: rgba(211, 211, 211, 0.4);
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 4%;
+    padding-inline-start: 0;
+  }
+
+  .menu-li {
+    text-decoration: none;
+    color: #272a31;
+    font-size: 30px;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-family: "COCOGOOSE", sans-serif;
   }
 
   .hello-title {
