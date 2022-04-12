@@ -31,6 +31,7 @@
     height: 50px;
     width: 50px;
     padding-top: 3%;
+    cursor: pointer;
   }
 
   .menu-appear {
@@ -38,8 +39,15 @@
     flex-direction: row-reverse;
     justify-content: center;
     width: 100%;
-    height: 100%;
+    min-height: 800px;
     background-color: rgba(211, 211, 211, 0.2);
+  }
+  .menu-open {
+    display: flex;
+  }
+
+  .disappear {
+    display: none;
   }
 
   .close-menu {
@@ -47,12 +55,13 @@
     color: #ec5242;
     margin-top: 0;
     margin-right: 3%;
+    cursor: pointer;
   }
 
   .navigation {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     gap: 30px;
     text-decoration: none;
