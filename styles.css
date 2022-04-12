@@ -215,4 +215,161 @@
     border: solid 2px gray;
     border-radius: 1px;
   }
+
+  .About {
+    background-color: rgba(211, 211, 211, 0.2);
+  }
+
+  #about-image {
+    padding: 3%;
+  }
+
+  .about-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sub-about {
+    font-family: "Lato", sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    color: #ec5242;
+    margin-bottom: 10px;
+    margin-top: 0;
+  }
+
+  .about-heading {
+    font-family: "COCOGOOSE", sans-serif;
+    font-size: 50px;
+    color: #ec5242;
+    margin-top: 0;
+    padding-bottom: 70px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  .about-text {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    padding-left: 3%;
+    color: #272a31;
+    border: solid 2px white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0;
+    text-align: center;
+    background-color: white;
+    margin: 5%;
+    padding: 3%;
+  }
+
+  .booking {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    color: #272a31;
+    text-align: center;
+  }
+
+  .booking-email {
+    color: #272a31;
+    font-weight: 500;
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    padding-bottom: 50px;
+  }
+
+  .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    height: 100%;
+    padding-bottom: 50px;
+  }
+
+  .logo-title {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    background-image: url("./assets/images/orange-line.png");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 15px;
+    text-align: center;
+    color: #272a31;
+  }
+
+  .logo-text {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    color: #272a31;
+    text-align: center;
+  }
+
+  .logo-link {
+    width: 90%;
+    text-align: center;
+    border: solid 2px #d3d3d3;
+    padding: 30px 15px;
+  }
+
+  .previous-parties {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-top: 2px solid #d3d3d3;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .previous-title {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    background-image: url("./assets/images/orange-line.png");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 15px;
+    text-align: center;
+    color: #272a31;
+    margin-bottom: 5px;
+  }
+
+  .previous-text {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    color: #272a31;
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .party-2019 {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    background-image: url("./assets/images/party-2019.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    min-width: 600px;
+    min-height: 395px;
+    padding-top: 150px;
+  }
+
+  .party-2018 {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    background-image: url("./assets/images/party-2018.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    min-width: 600px;
+    min-height: 395px;
+    padding-top: 150px;
+  }
 }
