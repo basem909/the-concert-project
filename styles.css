@@ -1,2 +1,140 @@
-font-family: "COCOGOOSE", sans-serif;
-font-family: 'Lato', sans-serif;
+@media screen and (max-width: 767px) {
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "COCOGOOSE", sans-serif;
+    font-family: "Lato", sans-serif;
+  }
+
+  .hello-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(211, 211, 211, 0.2);
+  }
+
+  .hello-header {
+    display: flex;
+    justify-content: start;
+    padding-left: 5%;
+    padding-top: 3%;
+    width: 100%;
+  }
+
+  .menu-image {
+    height: 50px;
+    width: 50px;
+  }
+
+  .navigation {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-decoration: none;
+    list-style: none;
+    width: 90%;
+  }
+
+  .hello-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 7%;
+    padding-right: 10%;
+  }
+
+  .sub-heading {
+    font-family: "Lato", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #ec5242;
+    margin-bottom: 10px;
+  }
+
+  .hello-heading {
+    font-family: "COCOGOOSE", sans-serif;
+    font-size: 50px;
+    color: #ec5242;
+    margin-top: 0;
+    padding-right: 7%;
+  }
+
+  .hello-text {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    padding-left: 3%;
+    color: #272a31;
+    border: solid 2px white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .hello-time {
+    font-family: "COCOGOOSE", sans-serif;
+    font-size: 30px;
+    color: #272a31;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  #location-text {
+    font-family: "Lato", sans-serif;
+    font-size: 28px;
+    color: #272a31;
+    margin-top: 0;
+    margin-bottom: 100px;
+  }
+
+  .program {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #272a31;
+  }
+
+  .program-heading {
+    font-family: "Lato", sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    color: white;
+    border-bottom: #ec5242 solid 2px;
+    margin-top: 30px;
+    padding-bottom: 15px;
+  }
+
+  .program-partion {
+    display: flex;
+    justify-content: start;
+    align-content: center;
+    gap: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+  }
+
+  .partion-img {
+    align-self: flex-start;
+    padding-top: 9%;
+  }
+
+  .partion-heading {
+    color: #ec5242;
+    text-align: center;
+    padding-top: 7%;
+    font-family: "COCOGOOSE", sans-serif;
+    font-size: 16px;
+  }
+  .partion-text {
+    color: white;
+    line-height: 25px;
+  }
+}
