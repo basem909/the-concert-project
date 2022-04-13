@@ -1,4 +1,8 @@
 @media screen and (max-width: 767px) {
+  .upper {
+    display: none;
+  }
+
   .main-container {
     display: flex;
     flex-direction: column;
@@ -438,5 +442,36 @@
     font-size: 16px;
     color: #272a31;
     font-family: "Lato", sans-serif;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "COCOGOOSE", sans-serif;
+    font-family: "Lato", sans-serif;
+  }
+
+  .upper {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    background-color: grey;
+    padding-right: 12%;
+  }
+
+  .upper-link {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 15px;
+    text-decoration: none;
+  }
+
+  .icon1 {
+    height: 50px;
+    width: 50px;
   }
 }
