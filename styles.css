@@ -314,6 +314,12 @@
     text-align: center;
     border: solid 2px #d3d3d3;
     padding: 30px 15px;
+    max-height: 400px;
+  }
+
+  .party-logo {
+    height: 150px;
+    width: 300px;
   }
 
   .previous-parties {
@@ -348,28 +354,89 @@
   }
 
   .party-2019 {
-    font-size: 25px;
+    font-size: 50px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: white;
     background-image: url("./assets/images/party-2019.jpeg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 80%;
+    background-size: 100%;
     min-width: 600px;
     min-height: 395px;
-    padding-top: 150px;
+    margin: 0;
   }
 
   .party-2018 {
-    font-size: 30px;
+    font-size: 50px;
     text-align: center;
     color: white;
     background-image: url("./assets/images/party-2018.jpeg");
-    background-position: center;
     background-repeat: no-repeat;
-    background-size: 80%;
+    background-size: 100%;
     min-width: 600px;
     min-height: 395px;
-    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    margin: 0;
+  }
+
+  span {
+    font-weight: 300;
+    font-size: 30px;
+  }
+
+  .sponsors {
+    background-color: rgba(39, 42, 49, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sponsors-title {
+    font-family: "Lato", sans-serif;
+    font-size: 28px;
+    color: white;
+    border-bottom: #ec5242 solid 2px;
+    padding: 10px;
+  }
+
+  .sponsors-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-inline-start: 0;
+    gap: 100px;
+    margin: 0;
+  }
+
+  .mazzika-logo {
+    height: 150px;
+    width: 150px;
+  }
+
+  .melody-logo {
+    height: 120px;
+    width: 120px;
+  }
+
+  .about-footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    align-items: center;
+  }
+
+  .footer-text {
+    font-size: 16px;
+    color: #272a31;
+    font-family: "Lato", sans-serif;
   }
 }
