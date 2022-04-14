@@ -23,7 +23,6 @@
     justify-content: start;
     padding-left: 5%;
     padding-top: 0;
-    width: 100%;
     background-image: url("./assets/images/header-background2.png");
     background-size: 80%;
     background-repeat: repeat-x;
@@ -224,8 +223,69 @@
     border-radius: 1px;
   }
 
+  .stars {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .stars-title {
+    font-size: 50px;
+    font-family: "Lato", sans-serif;
+    background-image: url("./assets/images/orange-line.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    padding-bottom: 40px;
+    color: #272a31;
+  }
+
+  .star-card {
+    display: flex;
+    gap: 3%;
+    width: 545px;
+  }
+
+  .star-photo {
+    height: 150px;
+    max-width: 170px;
+    padding-left: 15px;
+    padding-top: 15px;
+    background-image: url("./assets/images/chess-board.svg");
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 35%;
+    align-items: stretch;
+  }
+
+  .star-name {
+    font-family: "Lato", sans-serif;
+    font-size: 26px;
+    margin-top: 0;
+    color: #272a31;
+  }
+
+  .star-description {
+    font-family: "Lato", sans-serif;
+    color: #ec5242;
+    padding-bottom: 20px;
+    margin: 0;
+    background-image: url("./assets/images/grey-line.png");
+    background-position: bottom left;
+    background-repeat: no-repeat;
+  }
+
+  .star-program {
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    color: #272a31;
+  }
+
   .About {
-    background-color: rgba(211, 211, 211, 0.2);
+    background-image: url("./assets/images/background1.png");
+    background-size: contain;
+    background-position: center;
   }
 
   #about-image {
@@ -462,7 +522,7 @@
     display: flex;
     justify-content: end;
     gap: 30px;
-    background-color: grey;
+    background-color: #272a31;
     padding-right: 12%;
   }
 
@@ -483,7 +543,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgba(211, 211, 211, 0.2);
   }
 
   .hello-header {
@@ -544,7 +603,7 @@
     padding-left: 7%;
     padding-right: 10%;
     padding-top: 4%;
-    background-image: url("./assets/images/hello-background-desktop.png");
+    background-image: url("./assets/images/wegz.jpeg");
   }
 
   .sub-heading {
@@ -691,6 +750,9 @@
     flex-direction: column;
     align-items: center;
     background-color: rgba(211, 211, 211, 0.2);
+    background-image: url("./assets/images/background1.png");
+    background-position: center;
+    background-size: contain;
     padding-top: 4%;
   }
 
@@ -880,10 +942,11 @@
 
   .sponsors-list {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     list-style: none;
     padding-inline-start: 0;
-    gap: 100px;
+    gap: 0;
     margin: 0;
   }
 
@@ -893,8 +956,8 @@
   }
 
   .melody-logo {
-    height: 120px;
-    width: 120px;
+    height: 100px;
+    width: 100px;
   }
 
   .about-footer {
