@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 @media screen and (max-width: 767px) {
   .upper {
     display: none;
@@ -513,6 +517,11 @@
     font-size: 16px;
     color: #272a31;
     font-family: "Lato", sans-serif;
+  }
+
+  #sponsors-index,
+  #footer-index {
+    display: none;
   }
 }
 
@@ -1049,5 +1058,18 @@
     font-size: 16px;
     color: #272a31;
     font-family: "Lato", sans-serif;
+  }
+
+  #sponsors-about {
+    display: none;
+  }
+
+  #footer-about {
+    background-color: #272a31;
+    padding: 20px;
+  }
+
+  #footer-about > p {
+    color: #d3d3d3;
   }
 }

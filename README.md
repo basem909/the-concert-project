@@ -50,3 +50,14 @@ Give a ⭐️ if you like this project!
 This project is MIT licensed.
 This project has Creative Commons license of the design.
 https://creativecommons.org/licenses/by-nc/4.0/
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+- copy this link `https://github.com/basem909/the-concert-project.git`.
+- get the directory that you want to clone the repository.
+- open the command prompt in this directory.
+- write `git clone https://github.com/basem909/the-concert-project.git`.
+- go to the repository folder in your command prompt, run `cd the-concert-project`.
+- run `npm install`
