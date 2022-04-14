@@ -85,10 +85,13 @@ const starsTitle = document.createElement("h2");
 starsTitle.textContent = "Our Stars";
 starsTitle.classList.add("stars-title");
 starsSection.appendChild(starsTitle);
+const starsCards = document.createElement("div");
+starsCards.classList.add("stars-cards");
+starsSection.appendChild(starsCards);
 
 const starCard1 = document.createElement("section");
 starCard1.classList.add("star-card");
-starsSection.appendChild(starCard1);
+starsCards.appendChild(starCard1);
 const starPhoto1 = document.createElement("img");
 starPhoto1.setAttribute("src", stars[0].photo);
 starPhoto1.classList.add("star-photo");
@@ -111,7 +114,7 @@ starDetails1.appendChild(starProgram1);
 
 const starCard2 = document.createElement("section");
 starCard2.classList.add("star-card");
-starsSection.appendChild(starCard2);
+starsCards.appendChild(starCard2);
 const starPhoto2 = document.createElement("img");
 starPhoto2.setAttribute("src", stars[1].photo);
 starPhoto2.classList.add("star-photo");
@@ -134,7 +137,7 @@ starDetails2.appendChild(starProgram2);
 
 const starCard3 = document.createElement("section");
 starCard3.classList.add("star-card");
-starsSection.appendChild(starCard3);
+starsCards.appendChild(starCard3);
 const starPhoto3 = document.createElement("img");
 starPhoto3.setAttribute("src", stars[2].photo);
 starPhoto3.classList.add("star-photo");
@@ -157,7 +160,7 @@ starDetails3.appendChild(starProgram3);
 
 const starCard4 = document.createElement("section");
 starCard4.classList.add("star-card");
-starsSection.appendChild(starCard4);
+starsCards.appendChild(starCard4);
 const starPhoto4 = document.createElement("img");
 starPhoto4.setAttribute("src", stars[3].photo);
 starPhoto4.classList.add("star-photo");
@@ -180,7 +183,7 @@ starDetails4.appendChild(starProgram4);
 
 const starCard5 = document.createElement("section");
 starCard5.classList.add("star-card");
-starsSection.appendChild(starCard5);
+starsCards.appendChild(starCard5);
 const starPhoto5 = document.createElement("img");
 starPhoto5.setAttribute("src", stars[4].photo);
 starPhoto5.classList.add("star-photo");
@@ -203,7 +206,7 @@ starDetails5.appendChild(starProgram5);
 
 const starCard6 = document.createElement("section");
 starCard6.classList.add("star-card");
-starsSection.appendChild(starCard6);
+starsCards.appendChild(starCard6);
 const starPhoto6 = document.createElement("img");
 starPhoto6.setAttribute("src", stars[5].photo);
 starPhoto6.classList.add("star-photo");
