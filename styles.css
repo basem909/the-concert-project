@@ -46,7 +46,7 @@ body {
     flex-direction: row-reverse;
     justify-content: center;
     width: 100%;
-    min-height: 800px;
+    max-height: 47vh;
     background-color: rgba(211, 211, 211, 0.2);
   }
 
@@ -69,24 +69,25 @@ body {
   .navigation {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 4vw;
     text-decoration: none;
     list-style: none;
-    width: 90%;
+    width: 90vw;
+    max-width: 100%;
     padding-top: 4%;
     background-color: rgba(211, 211, 211, 0.4);
     margin-left: 10%;
     margin-right: 10%;
-    padding-bottom: 4%;
+    padding-bottom: 4vw;
     padding-inline-start: 0;
   }
 
   .menu-li {
     text-decoration: none;
     color: #272a31;
-    font-size: 30px;
+    font-size: 3vw;
     padding: 10px;
     margin-bottom: 15px;
     font-family: "COCOGOOSE", sans-serif;
