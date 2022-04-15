@@ -307,6 +307,7 @@ body {
     background-image: url("./assets/images/background1.png");
     background-size: contain;
     background-position: center;
+    width: 100%;
   }
 
   #about-image {
@@ -317,11 +318,12 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
   }
 
   .sub-about {
     font-family: "Lato", sans-serif;
-    font-size: 35px;
+    font-size: 4vw;
     font-weight: 400;
     color: #ec5242;
     margin-bottom: 10px;
@@ -334,7 +336,7 @@ body {
 
   .about-heading {
     font-family: "COCOGOOSE", sans-serif;
-    font-size: 50px;
+    font-size: 5vw;
     color: #ec5242;
     margin-top: 0;
     padding-bottom: 70px;
@@ -346,7 +348,7 @@ body {
 
   .about-text {
     font-family: "Lato", sans-serif;
-    font-size: 20px;
+    font-size: 3vw;
     margin: 5%;
     padding: 3%;
     padding-left: 3%;
@@ -361,16 +363,17 @@ body {
 
   .booking {
     font-family: "Lato", sans-serif;
-    font-size: 16px;
+    font-size: 3vw;
     color: #272a31;
     text-align: center;
+    width: 60vw;
   }
 
   .booking-email {
     color: #272a31;
     font-weight: 500;
     font-family: "Lato", sans-serif;
-    font-size: 20px;
+    font-size: 4vw;
     padding-bottom: 50px;
   }
 
@@ -380,39 +383,41 @@ body {
     align-items: center;
     background-color: white;
     height: 100%;
+    width: 100%;
     padding-bottom: 50px;
   }
 
   .logo-title {
     font-family: "Lato", sans-serif;
     font-weight: 500;
-    font-size: 28px;
+    font-size: 6vw;
     background-image: url("./assets/images/orange-line.png");
     background-position: center bottom;
     background-repeat: no-repeat;
     padding-bottom: 15px;
     text-align: center;
     color: #272a31;
+    margin-bottom: 5px;
   }
 
   .logo-text {
     font-family: "Lato", sans-serif;
-    font-size: 16px;
+    font-size: 3vw;
     color: #272a31;
     text-align: center;
+    margin-top: 0%;
   }
 
   .logo-link {
-    width: 90%;
+    width: 80vw;
     text-align: center;
     border: solid 2px #d3d3d3;
-    padding: 30px 15px;
     max-height: 400px;
   }
 
   .party-logo {
-    height: 150px;
-    width: 300px;
+    height: 50vw;
+    width: 50vw;
   }
 
   .previous-parties {
@@ -421,14 +426,13 @@ body {
     align-items: center;
     background-color: white;
     border-top: 2px solid #d3d3d3;
-    padding-left: 5%;
-    padding-right: 5%;
+    width: 100%;
   }
 
   .previous-title {
     font-family: "Lato", sans-serif;
     font-weight: 500;
-    font-size: 28px;
+    font-size: 7vw;
     background-image: url("./assets/images/orange-line.png");
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -440,14 +444,14 @@ body {
 
   .previous-text {
     font-family: "Lato", sans-serif;
-    font-size: 16px;
+    font-size: 4vw;
     color: #272a31;
     text-align: center;
     margin-top: 0;
   }
 
   .party-2019 {
-    font-size: 50px;
+    font-size: 7vw;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -458,35 +462,42 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
-    min-width: 600px;
-    min-height: 395px;
+    max-width: 600px;
+    max-height: 395px;
+    width: 90vw;
+    height: 70vw;
     margin: 0;
+    line-height: 2vh;
   }
 
   .party-2018 {
-    font-size: 50px;
+    font-size: 7vw;
     text-align: center;
-    color: white;
-    background-image: url("./assets/images/party-2018.jpeg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    min-width: 600px;
-    min-height: 395px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: white;
+    background-image: url("./assets/images/party-2018.jpeg");
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    max-width: 600px;
+    max-height: 395px;
+    width: 90vw;
+    height: 70vw;
     margin: 0;
+    line-height: 2vh;
   }
 
   span {
     font-weight: 300;
-    font-size: 30px;
+    font-size: 4vw;
+    padding-bottom: -10%;
   }
 
   .sponsors {
-    background-color: rgba(39, 42, 49, 0.9);
+    background-color: #272a31;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -495,7 +506,7 @@ body {
 
   .sponsors-title {
     font-family: "Lato", sans-serif;
-    font-size: 28px;
+    font-size: 6vw;
     color: white;
     border-bottom: #ec5242 solid 2px;
     padding: 10px;
@@ -506,18 +517,18 @@ body {
     justify-content: space-between;
     list-style: none;
     padding-inline-start: 0;
-    gap: 100px;
+    gap: 5vw;
     margin: 0;
   }
 
   .mazzika-logo {
-    height: 150px;
-    width: 150px;
+    width: 20vw;
+    height: 20vw;
   }
 
   .melody-logo {
-    height: 120px;
-    width: 120px;
+    height: 17vw;
+    width: 17vw;
   }
 
   .about-footer {
@@ -525,12 +536,21 @@ body {
     justify-content: space-around;
     background-color: white;
     align-items: center;
+    gap: 1vw;
+    width: 100vw;
   }
 
   .footer-text {
-    font-size: 16px;
+    font-size: 3vw;
     color: #272a31;
     font-family: "Lato", sans-serif;
+    text-align: center;
+    width: 35vw;
+  }
+
+  #logo-footer {
+    height: 40vw;
+    width: 40vw;
   }
 
   #sponsors-index,
@@ -873,7 +893,7 @@ body {
 
   .about-heading {
     font-family: "COCOGOOSE", sans-serif;
-    font-size: 50px;
+    font-size: 5vw;
     color: #ec5242;
     margin-top: 0;
     padding-bottom: 70px;
