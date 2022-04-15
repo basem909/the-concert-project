@@ -1022,6 +1022,7 @@ body {
     min-width: 350px;
     min-height: 395px;
     margin: 0;
+    line-height: 20px;
   }
 
   .party-2018 {
@@ -1039,6 +1040,7 @@ body {
     align-items: center;
     background-position: center;
     margin: 0;
+    line-height: 20px;
   }
 
   span {
@@ -1047,7 +1049,7 @@ body {
   }
 
   .sponsors {
-    background-color: rgba(39, 42, 49, 0.9);
+    background-color: #272a31;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1073,13 +1075,13 @@ body {
   }
 
   .mazzika-logo {
-    height: 300px;
-    width: 300px;
+    height: 30vw;
+    width: 30vw;
   }
 
   .melody-logo {
-    height: 200px;
-    width: 200px;
+    height: 30vw;
+    width: 30vw;
   }
 
   .about-footer {

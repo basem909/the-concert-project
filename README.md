@@ -19,9 +19,9 @@
 - hintweb
 - stylint
 
-## links
+## Links
 
-- https://basem909.github.io/microverse-portofolio-project-/
+- https://basem909.github.io/the-concert-project/
   this is the link to the page on internet.
 
 ## Authors
@@ -30,16 +30,16 @@
 
 - GitHub: [@githubhandle](https://github.com/basem909)
 
-## credits to
+## Credits to
 
 Cindy Shin: The original designer at Behance
 
 the link tothe designer's profile:
 https://www.behance.net/adagio07
 
-## loom video link
+## Loom video link
 
-https://www.loom.com/share/a77b61cf7f8041f1b0b0cb70e8defcff
+https://www.loom.com/share/14d6436acc3f4096aa443b515a6406d3
 
 ## Show your support
 
