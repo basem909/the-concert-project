@@ -19,8 +19,6 @@ linkMenu.forEach((link) => {
   link.addEventListener('click', closeMenu);
 });
 
-
-
 // singers variable
 const stars = [
   {

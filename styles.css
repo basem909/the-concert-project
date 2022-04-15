@@ -107,7 +107,7 @@ body {
 
   .sub-heading {
     font-family: "Lato", sans-serif;
-    font-size: 30px;
+    font-size: 4vw;
     font-weight: 400;
     color: #ec5242;
     margin-bottom: 10px;
@@ -116,7 +116,7 @@ body {
 
   .hello-heading {
     font-family: "COCOGOOSE", sans-serif;
-    font-size: 50px;
+    font-size: 5vw;
     color: #ec5242;
     margin-top: 0;
     padding-right: 7%;
@@ -129,7 +129,7 @@ body {
 
   .hello-text {
     font-family: "Lato", sans-serif;
-    font-size: 20px;
+    font-size: 3vw;
     padding-left: 3%;
     color: #272a31;
     border: solid 2px white;
@@ -140,7 +140,7 @@ body {
 
   .hello-time {
     font-family: "COCOGOOSE", sans-serif;
-    font-size: 30px;
+    font-size: 4vw;
     color: #272a31;
     margin-bottom: 0;
     margin-top: 0;
@@ -148,7 +148,7 @@ body {
 
   #location-text {
     font-family: "Lato", sans-serif;
-    font-size: 28px;
+    font-size: 4vw;
     color: #272a31;
     margin-top: 0;
     padding-bottom: 100px;
@@ -193,22 +193,27 @@ body {
 
   .partion-img {
     align-self: flex-start;
-    padding-top: 9%;
+    width: 7vw;
+    height: 4vh;
+    margin-top: 3%;
   }
 
   .partion-heading {
     color: #ec5242;
-    text-align: center;
-    padding-top: 7%;
+    text-align: left;
     font-family: "COCOGOOSE", sans-serif;
-    font-size: 16px;
+    font-size: 3vw;
+    margin-top: 3%;
+    align-content: stretch;
   }
 
   .partion-text {
     color: white;
-    line-height: 25px;
+    font-size: 2vw;
     text-align: left;
+    align-content: center;
     font-family: "Lato", sans-serif;
+    margin-top: 3%;
   }
 
   .program-button {
@@ -216,11 +221,12 @@ body {
     color: white;
     background-color: #ec5242;
     text-align: center;
-    padding: 30px;
+    padding: 5vw;
     margin-bottom: 40px;
-    font-size: 20px;
+    font-size: 4vw;
     font-family: "Lato", sans-serif;
     border: #ec5242 solid 2px;
+    width: auto;
   }
 
   .program-button:hover {
@@ -236,6 +242,7 @@ body {
     align-items: center;
     gap: 20px;
     margin-bottom: 3%;
+    max-width: 100%;
   }
 
   .stars-title {
@@ -251,12 +258,15 @@ body {
   .star-card {
     display: flex;
     gap: 3%;
-    width: 545px;
+    width: 90vw;
+    max-width: 100%;
   }
 
   .star-photo {
-    height: 150px;
-    max-width: 170px;
+    height: auto;
+    width: 25vw;
+    max-width: 150px;
+    max-height: 150px;
     padding-left: 15px;
     padding-top: 15px;
     background-image: url("./assets/images/chess-board.svg");
@@ -267,26 +277,30 @@ body {
   }
 
   .star-name {
-    font-family: "Lato", sans-serif;
-    font-size: 26px;
+    font-family: "COCOGOOSE", sans-serif;
+    font-size: 5vw;
     margin-top: 0;
     color: #272a31;
+    max-width: 100%;
+    margin-bottom: 10px;
   }
 
   .star-description {
     font-family: "Lato", sans-serif;
     color: #ec5242;
-    padding-bottom: 20px;
+    font-size: 3vw;
     margin: 0;
     background-image: url("./assets/images/grey-line.png");
     background-position: bottom left;
     background-repeat: no-repeat;
+    padding-bottom: 10px;
   }
 
   .star-program {
     font-family: "Lato", sans-serif;
-    font-size: 14px;
+    font-size: 3vw;
     color: #272a31;
+    margin-top: 10px;
   }
 
   .About {
